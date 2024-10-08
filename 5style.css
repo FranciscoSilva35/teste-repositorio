@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #747377;
+}
+
+.figma {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 20px auto;
+    width: 300px,
+
+}
+
+.figma {
+    width: 300px;
+    border-radius: 5px;
+}
+
+main {
+    width: 380px;
+    height: 664px;
+    background: #F4F4F4;
+    border-radius: 25px;
+    margin: -13px auto;
+    padding: 44px 25px 24px 23px;
+
+
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    color: #777777;
+    cursor: progress;
+}
+
+select {
+    width: 100%;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    cursor: pointer;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input {
+    display: flex;
+    font-weight: 700;
+    font-size: 18PX;
+    width: 332px;
+    height: 47px;
+    padding: 7px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+
+}
+
+input {
+    color: #d48428;
+}
+
+
+button {
+    margin-top: 10px;
+    width: 332px;
+    height: 48px;
+    left: 24px;
+    top: 329px;
+    border: none;
+    background-color: #d48428;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    opacity: 0.9;
+    font-weight: 700;
+    background-color: #FFFFFF;
+    color: #d48428;
+    font-size: 30px;
+    transition: 01s ease-in-out;
+
+}
+
+button:active {
+
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #772FD3;
+    background: #F4F4F4;
+    border-radius: 20px;
+    margin-top: 18px;
+    padding: 12PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow {
+    margin: 10px;
+    width: 90px;
+}
+
+.currency-value .currency-value-to-convert {
+    color: #555555;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.currency-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input:hover {
+    font-size: 37px;
+    transition: 01s ease-in-out;
+    color: #d48428;
+}
+
+select:hover {
+    font-size: 30px;
+    transition: 01s ease-in-out;
+    color: #d48428;
+}
+
+.images-fundo {
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+
+}
